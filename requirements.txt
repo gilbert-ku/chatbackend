@@ -12,8 +12,8 @@ Flask-SocketIO==5.3.6
 Flask-SQLAlchemy
 greenlet==3.0.0
 h11==0.14.0
-importlib-metadata==6.8.0
-importlib-resources==6.1.0
+importlib-metadata
+importlib-resources
 itsdangerous==2.1.2
 Jinja2==3.1.2
 Mako==1.2.4
