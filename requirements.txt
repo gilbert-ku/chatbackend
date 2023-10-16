@@ -28,4 +28,4 @@ SQLAlchemy==2.0.22
 typing_extensions
 Werkzeug
 wsproto==1.2.0
-zipp==3.17.0
+zipp
