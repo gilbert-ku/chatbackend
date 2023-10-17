@@ -19,13 +19,13 @@ app.config['JWT_SECRET_KEY'] = 'your_secret_key_here'
 jwt = JWTManager(app)
 # CORS(app, resources={r"/users/*": {"origins": "http://localhost:5173"}})
 # CORS(app, resources={r"/login": {"origins": "http://localhost:5173"}})
-CORS(app, resources={r"/users/*": {"origins": "http://localhost:5173"}, r"/login": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/users/*": {"origins": "https://chat-o8bt.onrender.com"}, r"/login": {"origins": "https://chat-o8bt.onrender.com"}})
 
 
 migrate = Migrate(app,db)
 
 # socketio = SocketIO(app)
-socketio = SocketIO(app, cors_allowed_origins="http://localhost:5173")
+socketio = SocketIO(app, cors_allowed_origins="https://chat-o8bt.onrender.com")
 
 
 api = Api(app)
